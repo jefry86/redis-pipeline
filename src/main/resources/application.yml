@@ -1,0 +1,10 @@
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password: 1234567
+  db: 3
+  key_prefix: abn_
+file:
+  path: ./logs/demo
+  count: 20
+  is_tmp: 1
